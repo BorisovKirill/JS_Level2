@@ -7,13 +7,13 @@
     <title>eShop</title>
     <link rel="stylesheet" href="reset.css" />
     <style>
-      @import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700");
+      @import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,700");
       body {
         font-family: "Monserrat", sans-serif;
       }
       header {
-        border: 1px solid #e7fcde;
-        background: #f6fff2;
+        border: 1px solid lightgray;
+        background: #fff;
         padding: 10px;
         text-align: right;
       }
@@ -25,7 +25,7 @@
         background: #f3f3f3;
         border: 1px #dadada solid;
         padding: 5px 10px;
-        border-radius: 50px;
+        border-radius: 6px;
         padding: 10px 30px;
         font-weight: bold;
         font-size: 10pt;
@@ -56,8 +56,9 @@
         box-sizing: border-box;
         margin: 5px;
         padding: 10px;
-        border: 1px solid #e7fcde;
-        background: #f6fff2;
+        border: 1px solid lightgray;
+        background: #fff;
+        border-radius: 6px;
       }
       .goods-item-img {
         width: 100%;
@@ -65,16 +66,21 @@
         margin-bottom: 10px;
       }
       .goods-item-name {
-        font-weight: bold;
+        font-weight: 400;
         font-size: 1.1em;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
       }
       .goods-item-price {
-        color: #f44242;
-        margin-bottom: 5px;
+        font-size: 1.2em;
+        color: black;
+        margin-bottom: 10px;
+        font-weight: 700;
       }
-      .goods-item-price::after {
-        content: "‎\0020\20BD";
+      .goods-item-price-end {
+        display: inline;
+        color: #888;
+        font-size: 0.8em;
+        margin-left: 5px;
       }
       .goods-item-desc {
         color: #888;
