@@ -15,10 +15,10 @@ const renderGoodsItem = (title, price) => {
   return `<div class="goods-item"><div class="goods-item-in">
       <img class="goods-item-img" src="NoImage.png"/>
       <div class="goods-item-name">${title}</div>
-      <div class="goods-item-price">${price}</div>
       <div class="goods-item-desc">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </div>
+      <div class="goods-item-price">${price}<div class="goods-item-price-end">‎руб./шт.</div></div>
       <div class="goods-item-addbtn-container"><button>Добавить</button></div>
       </div></div>`;
 };
